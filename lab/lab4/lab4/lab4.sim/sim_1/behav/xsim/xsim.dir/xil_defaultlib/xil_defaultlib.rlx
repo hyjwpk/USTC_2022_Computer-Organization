@@ -1,0 +1,22 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1649243534,verilog,,C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,,clk_wiz_0,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1649243534,verilog,,C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1650022202,verilog,,C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,,dist_mem_gen_0,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1650022236,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/ALU.v,,dist_mem_gen_1,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sim_1/new/CPU_test.v,1650023405,verilog,,,,CPU_test,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/ALU.v,1649229177,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Branch.v,,ALU,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Branch.v,1649228956,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/CPU.v,,Branch,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/CPU.v,1649237213,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Control.v,,CPU,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Control.v,1649228978,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Data_Memory.v,,Control,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Data_Memory.v,1649167156,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Decode.v,,Data_Memory,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Decode.v,1649234624,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Imm.v,,Decode,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Imm.v,1649227934,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Instr_memory.v,,Imm,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Instr_memory.v,1649149164,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/PC.v,,Instr_memory,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/PC.v,1649237228,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/PDU.v,,PC;PC_Mux,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/PDU.v,1649137093,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Registers.v,,pdu_1cycle,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/Registers.v,1649236100,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/TOP.v,,Reg_Mux;Registers,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/wangc/Downloads/lab4/lab4.srcs/sources_1/new/TOP.v,1649250905,verilog,,C:/Users/wangc/Downloads/lab4/lab4.srcs/sim_1/new/CPU_test.v,,TOP,,,../../../../lab4.gen/sources_1/ip/clk_wiz_0,,,,,

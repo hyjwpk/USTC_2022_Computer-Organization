@@ -1,0 +1,1 @@
+-wto "60bfdff8d5d545b3a1af144e0e9fc96c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "dist_mem_gen_v8_0_13" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "CPU_test_behav" "xil_defaultlib.CPU_test" "xil_defaultlib.glbl" -log "elaborate.log" 

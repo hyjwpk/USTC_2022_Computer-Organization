@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Apr 17 17:23:50 2022
+# Process ID: 1816
+# Current directory: C:/Users/wangc/lab5.no.forwarding.hazard/lab5.no.forwarding.hazard.runs/dist_mem_gen_1_synth_1
+# Command line: vivado.exe -log dist_mem_gen_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_1.tcl
+# Log file: C:/Users/wangc/lab5.no.forwarding.hazard/lab5.no.forwarding.hazard.runs/dist_mem_gen_1_synth_1/dist_mem_gen_1.vds
+# Journal file: C:/Users/wangc/lab5.no.forwarding.hazard/lab5.no.forwarding.hazard.runs/dist_mem_gen_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dist_mem_gen_1.tcl -notrace

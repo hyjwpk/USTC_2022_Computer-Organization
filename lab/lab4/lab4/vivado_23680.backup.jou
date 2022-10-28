@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Apr 13 19:28:39 2022
+# Process ID: 23680
+# Current directory: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/计算机组成原理/实验/lab4/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19328 C:\Users\wangc\OneDrive - mail.ustc.edu.cn\Study\Cs\计算机组成原理\实验\lab4\lab4\lab4.xpr
+# Log file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/计算机组成原理/实验/lab4/lab4/vivado.log
+# Journal file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/计算机组成原理/实验/lab4/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/计算机组成原理/实验/lab4/lab4/lab4.xpr}
+close_project
+open_project {C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/计算机组成原理/实验/lab4/lab4/lab4.xpr}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CPU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+synth_design -rtl -rtl_skip_mlo -name rtl_1

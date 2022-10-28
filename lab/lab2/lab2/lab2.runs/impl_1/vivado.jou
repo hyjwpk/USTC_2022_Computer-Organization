@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Mar 26 15:27:40 2022
+# Process ID: 20948
+# Current directory: C:/Users/wangc/lab2/lab2.runs/impl_1
+# Command line: vivado.exe -log FIFO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FIFO.tcl -notrace
+# Log file: C:/Users/wangc/lab2/lab2.runs/impl_1/FIFO.vdi
+# Journal file: C:/Users/wangc/lab2/lab2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FIFO.tcl -notrace

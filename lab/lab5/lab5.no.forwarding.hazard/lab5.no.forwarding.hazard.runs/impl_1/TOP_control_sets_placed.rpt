@@ -1,0 +1,89 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sun Apr 17 17:26:21 2022
+| Host         : LAPTOP-HYJWPK running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TOP_control_sets_placed.rpt
+| Design       : TOP
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    11 |
+|    Minimum number of control sets                        |    11 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    14 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    11 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             197 |           61 |
+| No           | No                    | Yes                    |              24 |            7 |
+| No           | Yes                   | No                     |             296 |           77 |
+| Yes          | No                    | No                     |              32 |            9 |
+| Yes          | No                    | Yes                    |              37 |           16 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------------------------------------------------------------------------------+---------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                                                  Enable Signal                                                  |         Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-----------------------------------------------------------------------------------------------------------------+---------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | CPU/ALU/E[0]                                                                                                    | sw_IBUF[7]                      |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG |                                                                                                                 |                                 |                5 |             15 |         3.00 |
+|  clk_IBUF_BUFG |                                                                                                                 | sw_IBUF[7]                      |                7 |             24 |         3.43 |
+|  clk_cpu_BUFG  |                                                                                                                 | CPU/EXMEM/EXMEM_result_reg[9]_0 |               12 |             27 |         2.25 |
+|  clk_cpu_BUFG  | CPU/ALU/p_0_in                                                                                                  |                                 |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG | CPU/ALU/MEMWB_Mem_data_out[4]_i_2_0[0]                                                                          | sw_IBUF[7]                      |               14 |             32 |         2.29 |
+|  clk_cpu_BUFG  | CPU/Data_Memory/dist_mem_gen_1/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_0_127_0_0_i_1_n_0   |                                 |               32 |            128 |         4.00 |
+|  clk_cpu_BUFG  | CPU/Data_Memory/dist_mem_gen_1/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_128_255_0_0_i_1_n_0 |                                 |               32 |            128 |         4.00 |
+|  clk_cpu_BUFG  | CPU/MEMWB/p_0_in1_out                                                                                           |                                 |               17 |            132 |         7.76 |
+|  clk_cpu_BUFG  |                                                                                                                 |                                 |               56 |            182 |         3.25 |
+|  clk_cpu_BUFG  |                                                                                                                 | CPU/IDEX/clear                  |               65 |            269 |         4.14 |
++----------------+-----------------------------------------------------------------------------------------------------------------+---------------------------------+------------------+----------------+--------------+
+
+

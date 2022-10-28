@@ -1,0 +1,42 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                 3000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                15000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                29000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                35000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                45000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                51000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                61000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                67000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                77000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                83000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                93000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                99000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               109000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               115000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               125000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               131000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               141000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               145000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time               151000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+$finish called at time : 205 ns : File "C:/Users/wangc/lab5/lab5.srcs/sim_1/new/CPU_test.v" Line 29

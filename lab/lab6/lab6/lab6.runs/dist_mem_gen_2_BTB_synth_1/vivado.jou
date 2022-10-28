@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue May 17 22:44:11 2022
+# Process ID: 13920
+# Current directory: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/lab6.runs/dist_mem_gen_2_BTB_synth_1
+# Command line: vivado.exe -log dist_mem_gen_2_BTB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_2_BTB.tcl
+# Log file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/lab6.runs/dist_mem_gen_2_BTB_synth_1/dist_mem_gen_2_BTB.vds
+# Journal file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/lab6.runs/dist_mem_gen_2_BTB_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dist_mem_gen_2_BTB.tcl -notrace

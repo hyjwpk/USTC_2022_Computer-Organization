@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Mar 20 21:14:23 2022
+# Process ID: 16260
+# Current directory: C:/Users/wangc/lab1/lab1.runs/impl_1
+# Command line: vivado.exe -log fls.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fls.tcl -notrace
+# Log file: C:/Users/wangc/lab1/lab1.runs/impl_1/fls.vdi
+# Journal file: C:/Users/wangc/lab1/lab1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source fls.tcl -notrace

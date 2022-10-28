@@ -1,0 +1,250 @@
+.data
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x4abd420c
+0x44b97244
+0x0f2669a8
+0x0524ed93
+0xefb80294
+0x641dffad
+0x39844ad2
+0x667030da
+0x2a2ade1f
+0x4e82f5df
+0x7280dcd3
+0x929f73e1
+0xd3c620d9
+0xdcfe1db7
+0xa66b2e60
+0x06db910f
+0x0083b33d
+0x131a7afd
+0x113225ba
+0x3c7b8f44
+0x1ae63eeb
+0x2e27c0a8
+0x086b8a86
+0x9f3f33ff
+0xdf156903
+0xdd937a25
+0xcbb020f8
+0x8fe92aa7
+0x4df1fed1
+0xe6dab1f4
+0x538be0a8
+0x1c146c93
+0x2d102016
+0x5b2b5796
+0xb6174b8e
+0x936b1dbf
+0x6fb5cfe2
+0x61830573
+0x3d938e42
+0xd9f66e9f
+0xbdd7c283
+0x580fc0c5
+0xfeda6ab7
+0xc083b012
+0x46e5a0ba
+0xc2360e91
+0x6d7e9bf6
+0x2e0cb7d7
+0xa6fef2c7
+0xc9fa4713
+0x16dc40b9
+0x3a8f96f4
+0x99441837
+0x04971097
+0x8a6616f1
+0x1cc37520
+0x8253c4a2
+0xd755dc55
+0xa729dbfe
+0x570b4e25
+0x8ec266b2
+0xb30b2c4d
+0x8ab155f3
+0x955251ec
+0x49612b3b
+0xae3a18de
+0x6a33aa59
+0x44cfd205
+0x825dec2a
+0x2e79ae4f
+0x38fa7e63
+0xca75158a
+0x3791be41
+0x73e34833
+0x618a28ee
+0x10413a52
+0x07fa1ba2
+0x3f19969f
+0xd9ead066
+0x0f4dffd5
+0x25df5bb7
+0xf50d3305
+0x7234df76
+0x6b2fe5b3
+0xe8f2867b
+0xf90c9f4e
+0x3c399fa5
+0x1171418e
+0xc6153de4
+0xc43bf7a5
+0xc634a818
+0x7ad8c708
+0x1a62767b
+0x3b31df1b
+0x22c04951
+0xd282f925
+0xcdb7ef8f
+0x09b0a526
+0x238c8c38
+0x68403d20
+0x8b789d5b
+0xe5af6a4c
+0xc3f65b9a
+0x6f820271
+0xb497f6e2
+0xb82c0b76
+0xd4143302
+0xf6c75b6e
+0x196a8d13
+0x893b7d76
+0x3cc29eec
+0x6c5549cd
+0x24a06a59
+0x071a96df
+0x86b132e4
+0xe2e0a0e4
+0xd82385d2
+0x66a29cc3
+0xeb1deda8
+0xec9a54df
+0x15cb9602
+0x6c30dc69
+0x0f521185
+0x47b9ea71
+0x0cb5089c
+0x9d7f96d1
+0x365eb277
+0x399825f1
+.text
+    xori   a4, zero, 3    # a4寄存器决定了计算的规模，矩阵规模=N*N，N=2^a4。例如a4=4，则矩阵2^4=16阶方阵 该值可以修改
+
+    # 以下指令计算3个矩阵（目的矩阵，源矩阵1，源矩阵2）在内存中的起始地址
+    # 这三个矩阵在内存中顺序紧挨着存放，例 a4=4，则N=16，则每个矩阵占N*N=256个字，即1024个字
+    # 目的矩阵起始地址0  源矩1起始地址1024  源矩2起始地址2048
+    # 目的矩阵起始地址放在a2里，源矩1起始地址放在a0里，源矩2起始地址放在a1
+    xori   a3, zero, 4
+    sll    a3, a3  , a4
+    xor    a2, zero, zero
+    sll    a0, a3  , a4
+    add    a1, a0  , a0
+    
+    # 始矩阵乘法，使用伪矩阵乘法公式：c_{ij} = \sigma c_{ik}*b{kj}  循环嵌套顺序（从内向外） i,j,k  分别使用 t0,t1,t2 存放 i,j,k
+    xor    t0, zero, zero
+    MatMulLoopI:
+        xor    t1, zero, zero
+        MatMulLoopJ:
+            xor    t3, zero, zero    #用t3存放内求和循环的累加和，首先将t3清零
+            xor    t2, zero, zero
+            MatMulLoopK:
+                sll  t4, t0, a4
+                add  t4, t4, t2
+                add  t4, t4, a0
+                lw   t4, (t4)
+                sll  t5, t2, a4
+                add  t5, t5, t1
+                add  t5, t5, a1
+                lw   t5, (t5)
+                and  t4, t4, t5
+                add  t3, t3, t4
+                addi t2, t2, 4
+            blt    t2, a3, MatMulLoopK
+            sll    t4, t0, a4
+            add    t4, t4, t1
+            add    t4, t4, a2
+            sw     t3, (t4)
+            add    x1, x1, t3
+            addi   t1, t1, 4
+        blt    t1, a3, MatMulLoopJ
+        addi   t0, t0, 4
+    blt    t0, a3, MatMulLoopI
+    
+    addi    t0, zero, 1
+    sll    t0, t0, a4
+    sll    t0, t0, a4
+    slli   t0, t0, 2
+    addi   t1, zero, 0
+Loop:
+    lw     t2, (t1)
+    addi   t1, t1, 4
+    blt    t1, t0, Loop
+# 计算结束，死循环
+
+InfLoop:
+    jal    zero, InfLoop
+    

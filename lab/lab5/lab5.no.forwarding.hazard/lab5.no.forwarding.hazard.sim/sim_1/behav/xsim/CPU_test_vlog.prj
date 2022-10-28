@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab4.gen/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" \
+"../../../../lab4.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/ALU.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Branch.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/CPU.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Control.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Data_Memory.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Decode.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/EXMEM.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/IDEX.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/IFID.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Imm.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Instr_memory.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/MEMWB.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/PC.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sources_1/new/Registers.v" \
+"../../../../lab5.no.forwarding.hazard.srcs/sim_1/new/CPU_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

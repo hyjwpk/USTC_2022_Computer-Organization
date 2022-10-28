@@ -1,0 +1,5 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../Xilinx/Vivado/2021.1/data/ip/xpm/xpm_VCOMP.vhd,
+dist_mem_gen_v8_0.v,verilog,dist_mem_gen_v8_0_13,../../../ipstatic/simulation/dist_mem_gen_v8_0.v,
+dist_mem_gen_0.v,verilog,xil_defaultlib,../../../../lab4.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

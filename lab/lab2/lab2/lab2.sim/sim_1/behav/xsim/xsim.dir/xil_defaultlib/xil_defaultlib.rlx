@@ -1,0 +1,13 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/wangc/lab2/lab2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1648270121,verilog,,C:/Users/wangc/lab2/lab2.srcs/sources_1/new/register_file.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/wangc/lab2/lab2.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1648264548,verilog,,C:/Users/wangc/lab2/lab2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/wangc/lab2/lab2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/wangc/lab2/lab2.srcs/sim_1/new/FIFO_test.v,1648279671,verilog,,,,FIFO_test,,,,,,,,
+C:/Users/wangc/lab2/lab2.srcs/sim_1/new/blk_mem_gen_0_test.v,1648044653,verilog,,C:/Users/wangc/lab2/lab2.srcs/sim_1/new/dist_mem_gen_0_test.v,,blk_mem_gen_0_test,,,,,,,,
+C:/Users/wangc/lab2/lab2.srcs/sim_1/new/dist_mem_gen_0_test.v,1648264760,verilog,,C:/Users/wangc/lab2/lab2.srcs/sim_1/new/FIFO_test.v,,dist_mem_gen_0_test,,,,,,,,
+C:/Users/wangc/lab2/lab2.srcs/sim_1/new/register_file_test.v,1648043158,verilog,,C:/Users/wangc/lab2/lab2.srcs/sim_1/new/blk_mem_gen_0_test.v,,register_file_test,,,,,,,,
+C:/Users/wangc/lab2/lab2.srcs/sources_1/new/fifo.v,1648278941,verilog,,C:/Users/wangc/lab2/lab2.srcs/sim_1/new/register_file_test.v,,FIFO;LCU;Segment_Display_Unit;register_file_fifo;signal_edge,,,,,,,,
+C:/Users/wangc/lab2/lab2.srcs/sources_1/new/register_file.v,1648043125,verilog,,C:/Users/wangc/lab2/lab2.srcs/sources_1/new/fifo.v,,register_file,,,,,,,,

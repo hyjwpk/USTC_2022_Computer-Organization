@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon May 16 10:29:18 2022
+# Process ID: 17372
+# Current directory: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19328 C:\Users\wangc\OneDrive - mail.ustc.edu.cn\Study\Cs\cod\lab\lab6\lab6\lab6.xpr
+# Log file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/vivado.log
+# Journal file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/lab6.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/wangc/lab6' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 1452.496 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 16 10:31:09 2022...

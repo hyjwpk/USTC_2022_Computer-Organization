@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon May 16 10:33:36 2022
+# Process ID: 5864
+# Current directory: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4864 C:\Users\wangc\OneDrive - mail.ustc.edu.cn\Study\Cs\cod\lab\lab6\lab6\lab6.xpr
+# Log file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/vivado.log
+# Journal file: C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/wangc/OneDrive - mail.ustc.edu.cn/Study/Cs/cod/lab/lab6/lab6/lab6.xpr}
+update_compile_order -fileset sources_1

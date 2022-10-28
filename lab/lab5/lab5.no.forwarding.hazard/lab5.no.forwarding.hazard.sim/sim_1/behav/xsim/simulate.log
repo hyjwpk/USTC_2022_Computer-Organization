@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                 3000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                11000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                17000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                21000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                27000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                35000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                41000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+WARNING in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst at time                45000 ns: 
+Reading from out-of-range address. Max address in CPU_test.CPU.Data_Memory.dist_mem_gen_1.inst is         255
+$finish called at time : 55 ns : File "C:/Users/wangc/lab5.no.forwarding.hazard/lab5.no.forwarding.hazard.srcs/sim_1/new/CPU_test.v" Line 29
